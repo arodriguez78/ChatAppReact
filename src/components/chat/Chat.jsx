@@ -23,8 +23,8 @@ const Chat = () => {
         <div className="user">
           <img src="./avatar.png" alt="" />
           <div className="texts">
-            <span>"Gojo"</span>
-            <p>The Honored One</p>
+            <span>"Jaime"</span>
+            <p>Jaime Torrecillas</p>
           </div>
         </div>
         <div className="icons">
@@ -37,53 +37,17 @@ const Chat = () => {
         <div className="message">
           <img src="./avatar.png" alt="" />
           <div className="texts">
-            <p>cuchu?</p>
+            <p>Hola?</p>
             <span>1 min ago</span>
           </div>
         </div>
         <div className="message own">
           <div className="texts">
-            <p>gay</p>
+            <p>Que tal</p>
             <span>1 min ago</span>
           </div>
         </div>
-        <div className="message">
-          <img src="./avatar.png" alt="" />
-          <div className="texts">
-            <p>comeme los huevos</p>
-            <span>1 min ago</span>
-          </div>
-        </div>
-        <div className="message own">
-          <div className="texts">
-            <img
-              src="https://ih1.redbubble.net/image.5257098384.9825/raf,360x360,075,t,fafafa:ca443f4786.jpg"
-              alt=""
-            />
-            <p>JUIAJJAJAJ MARICON</p>
-            <span>1 min ago</span>
-          </div>
-        </div>
-        <div className="message own">
-          <div className="texts">
-            <img
-              src="https://ih1.redbubble.net/image.5257098384.9825/raf,360x360,075,t,fafafa:ca443f4786.jpg"
-              alt=""
-            />
-            <p>JUIAJJAJAJ MARICON</p>
-            <span>1 min ago</span>
-          </div>
-        </div>
-        <div className="message own">
-          <div className="texts">
-            <img
-              src="https://ih1.redbubble.net/image.5257098384.9825/raf,360x360,075,t,fafafa:ca443f4786.jpg"
-              alt=""
-            />
-            <p>JUIAJJAJAJ MARICON</p>
-            <span>1 min ago</span>
-          </div>
-        </div>
+        
         <div ref={endRef}></div>
       </div>
       <div className="bottom">

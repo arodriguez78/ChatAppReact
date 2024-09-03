@@ -21,66 +21,25 @@ const ChatList = () => {
       <div className="item">
         <img src="./avatar.png" alt="" />
         <div className="texts">
-          <span>Test</span>
-          <p>Hola</p>
+          <span>Paco</span>
+          <p>Buenas</p>
         </div>
       </div>
       <div className="item">
         <img src="./avatar.png" alt="" />
         <div className="texts">
-          <span>Test</span>
-          <p>Hola</p>
+          <span>Fran</span>
+          <p>Hey</p>
         </div>
       </div>
       <div className="item">
         <img src="./avatar.png" alt="" />
         <div className="texts">
-          <span>Test</span>
+          <span>Tomás</span>
           <p>Hola</p>
         </div>
       </div>
-      <div className="item">
-        <img src="./avatar.png" alt="" />
-        <div className="texts">
-          <span>Test</span>
-          <p>Hola</p>
-        </div>
-      </div>
-      <div className="item">
-        <img src="./avatar.png" alt="" />
-        <div className="texts">
-          <span>Test</span>
-          <p>Hola</p>
-        </div>
-      </div>
-      <div className="item">
-        <img src="./avatar.png" alt="" />
-        <div className="texts">
-          <span>Test</span>
-          <p>Hola</p>
-        </div>
-      </div>
-      <div className="item">
-        <img src="./avatar.png" alt="" />
-        <div className="texts">
-          <span>Test</span>
-          <p>Hola</p>
-        </div>
-      </div>
-      <div className="item">
-        <img src="./avatar.png" alt="" />
-        <div className="texts">
-          <span>Test</span>
-          <p>Hola</p>
-        </div>
-      </div>
-      <div className="item">
-        <img src="./avatar.png" alt="" />
-        <div className="texts">
-          <span>Test</span>
-          <p>Hola</p>
-        </div>
-      </div>
+      
       {addMode && <AddUser />}
     </div>
   );
