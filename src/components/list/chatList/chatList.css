@@ -1,8 +1,6 @@
 .chatList {
   flex: 1;
-  overflow-y: scroll;
-  scrollbar-color: rgba(17, 25, 40, 0.774) transparent;
-
+  overflow: scroll;
   .search {
     display: flex;
     align-items: center;
@@ -41,6 +39,7 @@
       cursor: pointer;
     }
   }
+
   .item {
     display: flex;
     align-items: center;
@@ -64,11 +63,11 @@
       span {
         font-weight: 500;
       }
-    
-    p{
+
+      p {
         font-size: 14px;
         font-weight: 300;
-    }
+      }
     }
   }
 }

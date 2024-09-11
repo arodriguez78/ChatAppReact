@@ -1,18 +1,20 @@
+
 .detail {
   flex: 1;
 
   .user {
+    padding: 30px 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 15px;
-    flex-direction: column;
-    padding: 30px 20px;
     border-bottom: 1px solid #dddddd35;
 
     img {
       width: 100px;
       height: 100px;
       border-radius: 50%;
+      object-fit: cover;
     }
   }
 
@@ -53,6 +55,7 @@
             display: flex;
             align-items: center;
             gap: 20px;
+
             img {
               width: 40px;
               height: 40px;
@@ -79,21 +82,21 @@
       }
     }
     button {
-        padding: 15px;
-        background-color: rgba(230, 74, 105, 0.553);
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
+      padding: 15px;
+      background-color: rgba(230, 74, 105, 0.553);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
 
-        &:hover {
-          background-color: rgba(220, 20, 60, 0.796);
-        }
-
-        &.logout{
-            padding: 10px;
-            background-color: #1a73e8;
-        }
+      &:hover {
+        background-color: rgba(220, 20, 60, 0.796);
       }
+
+      &.logout{
+        padding: 10px;
+        background-color: #1a73e8;
+      }
+    }
   }
 }

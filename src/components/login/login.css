@@ -3,7 +3,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  gap:0px;
+  gap: 100px;
 
   .item {
     flex: 1;
@@ -41,7 +41,7 @@
           height: 50px;
           border-radius: 10px;
           object-fit: cover;
-          opacity: 60%;
+          opacity: 0.6;
         }
       }
 
@@ -56,9 +56,8 @@
         font-weight: 500;
 
         &:disabled {
-          background-color: #1f8ff19c;
-         
           cursor: not-allowed;
+          background-color: #1f8ff19c;
         }
       }
     }
